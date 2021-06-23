@@ -1,0 +1,16 @@
+english:
+    zLangSelector:
+        Reload: "&1&lzLangSelector &7plugin recargado."
+    Language:
+        Change: "&7You have selected %lang-displayname% &7(&b%lang%&7) language."
+    Error:
+        NoPermission: "&cNo permission."
+        UnknownCommand: "&cUsage: %command%"
+español:
+    zLangSelector:
+        Reload: "&1&lzLangSelector &7plugin reloaded."
+    Language:
+        Change: "&7Seleccionaste el lenguaje %lang-displayname% &7(&b%lang%&7)."
+    Error:
+        NoPermission: "&cNo tienes permiso para eso."
+        UnknownCommand: "&cUsa: %command%"

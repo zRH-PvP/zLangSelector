@@ -1,0 +1,30 @@
+MySQL:
+    Enabled: true
+    Host: "localhost"
+    Port: 3306
+    DataBase: "DataBaseName"
+    Username: "Username"
+    Password: "Password"
+
+DefaultLanguage: "ES" # You must put the language ID
+
+GUI:
+    LangSelector:
+        Title: "&b&lLang &7(%player%)"
+        Items:
+            english:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOL
+                damage: 11
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §bEnglish §7(Click to select)
+            español:
+                ==: org.bukkit.inventory.ItemStack
+                type: WOOL
+                damage: 14
+                meta:
+                  ==: ItemMeta
+                  meta-type: UNSPECIFIC
+                  display-name: §bEspañol §7(Click para seleccionar)

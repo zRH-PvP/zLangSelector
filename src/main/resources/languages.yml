@@ -1,0 +1,8 @@
+english:
+    Name: "English"
+    ID: 'en'
+    DisplayName: "&1English"
+español:
+    Name: "Español"
+    ID: 'es'
+    DisplayName: "&cEspañol"

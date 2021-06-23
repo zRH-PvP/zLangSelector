@@ -1,0 +1,11 @@
+name: zLangSelector
+version: 1.0
+authors: [zRH_PvP_]
+main: plugins.zrhpvp.zlangselector.ZLangSelector
+commands:
+  language:
+    description: Select your language
+    aliases: [lang]
+  zlangselector:
+      description: Main command
+      aliases: [zlang]

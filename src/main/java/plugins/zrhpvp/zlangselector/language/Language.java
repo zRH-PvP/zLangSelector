@@ -29,32 +29,47 @@ public class Language {
         return null;
     }
 
+    /**
+     * Gets the available languages list
+     *
+     * @return the Language list
+     */
     public static List<Language> getList() {
-
         FileConfiguration languages = ZLangSelector.getInstance().getFileManager().getLanguages();
 
         ArrayList<Language> langs = new ArrayList<>();
 
-        languages.getConfigurationSection("").getKeys(false).forEach(lang -> {
+        languages.getKeys(false).forEach(lang -> {
             langs.add(valueOf(lang));
         });
 
         return langs;
     }
 
+    /**
+     * Convert this language to string
+     *
+     * @return the Language converted to string
+     */
     @Override
     public String toString() {
-        return language;
-    }
-
-    public String getLanguage() {
         return this.language;
     }
 
+    /**
+     * Gets the ID from this language
+     *
+     * @return the ID
+     */
     public String getID() {
         return this.id;
     }
 
+    /**
+     * Gets the Display Name from this language
+     *
+     * @return the Display Name
+     */
     public String getDisplayName() {
         return this.displayName;
     }

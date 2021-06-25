@@ -6,3 +6,7 @@ español:
     Name: "Español"
     ID: 'es'
     DisplayName: "&cEspañol"
+#otherlanguage:
+#    Name: "OtherLanguage"
+#    ID: 'otherlang'
+#    DisplayName: "&bOther Language"

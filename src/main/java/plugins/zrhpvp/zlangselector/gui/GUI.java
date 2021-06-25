@@ -31,7 +31,7 @@ public class GUI {
         
         int i = 0;
         for (Language language : Language.getList()) {
-            langSelector.setItem(i, (ItemStack) config.getItemStack("GUI.LangSelector.Items." + language.getLanguage()));
+            langSelector.setItem(i, (ItemStack) config.getItemStack("GUI.LangSelector.Items." + language.toString()));
             i++;
         }
 

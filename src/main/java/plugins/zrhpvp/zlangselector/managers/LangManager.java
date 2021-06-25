@@ -61,10 +61,10 @@ public class LangManager {
 
     public void setPlayerLang(OfflinePlayer p, Language language) {
         if (config.getBoolean("MySQL.Enabled")) {
-            insertOrUpdate(p.getName(), language.getLanguage());
+            insertOrUpdate(p.getName(), language.toString());
             cache.invalidate(p);
         } else {
-            users.set(p.getUniqueId().toString(), language.getLanguage());
+            users.set(p.getUniqueId().toString(), language.toString());
             ZLangSelector.getInstance().getFileManager().saveFiles();
         }
     }

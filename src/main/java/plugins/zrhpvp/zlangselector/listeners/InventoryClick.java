@@ -7,6 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.InventoryView;
 import org.bukkit.inventory.ItemStack;
 import plugins.zrhpvp.zlangselector.ZLangSelector;
 import plugins.zrhpvp.zlangselector.language.Language;
@@ -29,9 +30,9 @@ public class InventoryClick implements Listener {
     public void onInventoryClickEvent(InventoryClickEvent e) {
 
         Player p = (Player) e.getWhoClicked();
-        Inventory inv = e.getInventory();
+        InventoryView inv = e.getView();
 
-        if (inv == null || inv.getName() == null || e.getCurrentItem() == null || inv.equals(p.getInventory()) || e.getCurrentItem().getType() == Material.AIR) {
+        if (inv == null || inv.getTopInventory().getName() == null || e.getCurrentItem() == null || inv.equals(p.getInventory()) || e.getCurrentItem().getType() == Material.AIR) {
             return;
         }
 

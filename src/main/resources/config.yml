@@ -28,3 +28,11 @@ GUI:
                   ==: ItemMeta
                   meta-type: UNSPECIFIC
                   display-name: §bEspañol §7(Click para seleccionar)
+#           otherlanguage:
+#               ==: org.bukkit.inventory.ItemStack
+#               type: WOOL
+#               damage: 10
+#               meta:
+#                 ==: ItemMeta
+#                 meta-type: UNSPECIFIC
+#                 display-name: §bOther Language §7(Click to select)

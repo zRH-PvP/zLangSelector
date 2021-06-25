@@ -1,16 +1,48 @@
 english:
     zLangSelector:
         Reload: "&1&lzLangSelector &7plugin recargado."
+        Help:
+        - ""
+        - "&b/zLangSelector Help &8- &7Show the help"
+        - "&b/zLangSelector Reload &8- &7Reload the plugin"
+        - ""
+        - "&b/Language &8- &7Open the language selector gui"
+        - ""
     Language:
         Change: "&7You have selected %lang-displayname% &7(&b%lang%&7) language."
     Error:
         NoPermission: "&cNo permission."
-        UnknownCommand: "&cUsage: %command%"
+        Usage: "&cUsage: %command%"
+        UnknownCommand: "&cUnknown command."
 español:
     zLangSelector:
         Reload: "&1&lzLangSelector &7plugin reloaded."
+        Help:
+        - ""
+        - "&b/zLangSelector Help &8- &7Muestra la ayuda"
+        - "&b/zLangSelector Reload &8- &7Recarga el plugin"
+        - ""
+        - "&b/Lenguaje &8- &7Abre la GUI del selector de idioma"
+        - ""
     Language:
         Change: "&7Seleccionaste el lenguaje %lang-displayname% &7(&b%lang%&7)."
     Error:
         NoPermission: "&cNo tienes permiso para eso."
-        UnknownCommand: "&cUsa: %command%"
+        Usage: "&cUsa: %command%"
+        UnknownCommand: "&cComando desconocido."
+#otherlanguage:
+#    zLangSelector:
+#        Reload: "&1&lzLangSelector &7plugin recargado."
+#        Help:
+#        - ""
+#        - "&b/zLangSelector Help &8- &7Show the help"
+#        - "&b/zLangSelector Reload &8- &7Reload the plugin"
+#        - ""
+#        - "&b/Language &8- &7Open the language selector gui"
+#        - ""
+#    Language:
+#        Change: "&7You have selected %lang-displayname% &7(&b%lang%&7) language."
+#    Error:
+#        NoPermission: "&cNo permission."
+#        Usage: "&cUsage: %command%"
+#        UnknownCommand: "&cUnknown command."

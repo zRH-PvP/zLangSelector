@@ -1,6 +1,5 @@
 package plugins.zrhpvp.zlangselector;
 
-import com.zaxxer.hikari.HikariDataSource;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import plugins.zrhpvp.zlangselector.commands.LanguageCMD;
@@ -25,7 +24,7 @@ public class ZLangSelector extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        Message.send(Bukkit.getConsoleSender(), "&9zLangSelector &f>> Enabling plugin...");
+        Message.send(Bukkit.getConsoleSender(), "&bzLangSelector &f>> Enabling plugin...");
 
         instance = this;
         fileManager = new FileManager();
@@ -51,8 +50,8 @@ public class ZLangSelector extends JavaPlugin {
 
             Message.send(Bukkit.getConsoleSender(), "");
         }
-        Message.send(Bukkit.getConsoleSender(), "&9zLangSelector &f>> Plugin enabled.");
-        Message.send(Bukkit.getConsoleSender(), "&9Author &f>> &bzRH_PvP_.");
+        Message.send(Bukkit.getConsoleSender(), "&bzLangSelector &f>> Plugin enabled.");
+        Message.send(Bukkit.getConsoleSender(), "&bAuthor &f>> &bzRH_PvP_.");
     }
 
     @Override

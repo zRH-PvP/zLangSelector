@@ -36,7 +36,7 @@ public class LanguageCMD implements CommandExecutor {
             if (args.length == 0) {
                 gui.openLangSelector(p);
             } else {
-                Message.send(p, messages.getString(langManager.getPlayerLang(p) + ".Error.UnknownCommand").replace("%command%", "/Language"));
+                Message.send(p, messages.getString(langManager.getPlayerLang(p) + ".Error.Usage").replace("%command%", "/Language"));
             }
         } else {
             Message.send(p, messages.getString(langManager.getPlayerLang(p) + ".Error.NoPermission"));

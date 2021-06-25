@@ -5,7 +5,7 @@ main: plugins.zrhpvp.zlangselector.ZLangSelector
 commands:
   language:
     description: Select your language
-    aliases: [lang]
+    aliases: [lang, lenguaje, idioma]
   zlangselector:
       description: Main command
       aliases: [zlang]

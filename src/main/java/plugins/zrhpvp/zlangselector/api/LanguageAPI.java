@@ -6,12 +6,22 @@ import plugins.zrhpvp.zlangselector.language.Language;
 
 public class LanguageAPI {
 
-    public void setPlayerLang(Player p, Language language) {
-        ZLangSelector.getInstance().getLangManager().setPlayerLang(p, language);
+    /**
+     * Set the language to the target player
+     * @param player
+     * @param language 
+     */
+    public static void setPlayerLang(Player player, Language language) {
+        ZLangSelector.getInstance().getLangManager().setPlayerLang(player, language);
     }
 
-    public Language getPlayerLang(Player p) {
-        return ZLangSelector.getInstance().getLangManager().getPlayerLang(p);
+    /**
+     * Get the language from the target player
+     * @param player
+     * @return the Language from the target player
+     */
+    public static Language getPlayerLang(Player player) {
+        return ZLangSelector.getInstance().getLangManager().getPlayerLang(player);
     }
 
 }
